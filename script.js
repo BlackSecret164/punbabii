@@ -17,7 +17,7 @@ document.getElementById("siBtn").addEventListener("click", function () {
 
   document.getElementById("messageContainer").style.display = "block";
   document.getElementById("messageContainer").innerHTML =
-    "Anh biết là em sẽ đồng ý làm người yêu anh mà<33";
+    "Anh biết là Pun sẽ đồng ý làm người yêu anh mà<33";
 
   setTimeout(function () {
     document.getElementById("happyGifContainer").style.display = "none";
@@ -95,7 +95,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       noButtonState++;
       break;
     case 5:
-      document.getElementById("noBtn").innerHTML = "Em không chịu đâu";
+      document.getElementById("noBtn").innerHTML = "Khôngggg chịu đâu";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       document.getElementById("siBtn").style.fontSize = "90px";
@@ -121,7 +121,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
 
       noButtonState++;
       document.getElementById("noBtn").onclick = function() {  
-        if (confirm("EM THẬT SỰ KHÔNG YÊU ANH SAO?")) {  
+        if (confirm("PUN THẬT SỰ KHÔNG YÊU ANH SAO?")) {  
             window.location.href = "./troll.mp4";  
         }  
     };  
